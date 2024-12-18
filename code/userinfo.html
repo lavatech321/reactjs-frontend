@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('./walk3.gif'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .form-container {
+            background-color: rgb(55, 51, 51);
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .form-container h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container pt-5 mt-5">
+        <h2>User Information</h2>
+        <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter address">
+            </div>
+
+            <div class="form-group">
+                <input class="form-control" type="tel" id="phno" name="phno" placeholder="Phone number">
+            </div>
+
+            <div class="form-group">
+                <input class="form-control"  type="email" id="email" name="email" placeholder="Email address">
+            </div>
+
+            <div class="form-group">
+                <input class="form-control"  type="number" id="email" name="email" placeholder="Enter age">
+            </div>
+
+
+            
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" aria-label="Checkbox for following text input">
+                  </div>
+                </div>
+                <input type="text" class="form-control" placeholder="MCom">
+                
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <input type="checkbox" aria-label="Checkbox for following text input">
+                    </div>
+                  </div>
+                <input type="text" class="form-control" placeholder="BCom">
+
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <input type="checkbox" aria-label="Checkbox for following text input">
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Other">
+
+              </div>
+              
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="radio" aria-label="Radio button for following text input">
+                  </div>
+                </div>
+                <input type="text" class="form-control" placeholder="Male">
+
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <input type="radio" aria-label="Radio button for following text input">
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Female">
+              </div>
+
+            
+              <div class="input-group mb-3">
+                <div class="custom-file">
+                  <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                  <label class="custom-file-label" for="inputGroupFile01">Upload resume</label>
+                </div>
+              </div>
+
+              <div class="form-group">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+
+        </form>
+    </div>
+
+
+</body>
+</html>

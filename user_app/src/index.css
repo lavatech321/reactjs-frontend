@@ -1,0 +1,20 @@
+
+/* Add background image */
+:root {
+  --backgroup-image: url('./assets/images/walk3.gif');
+}
+
+/* Add background image */
+body {
+  background-image: var(--backgroup-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bgcolor {
+  background-color: #F8AFA6;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.25);
+}

@@ -1,0 +1,28 @@
+:root {
+    --background-image: url('./assets/images/walk2.gif');
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--background-image); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mastfoot {
+color: rgba(255, 255, 255, .5);
+}
+

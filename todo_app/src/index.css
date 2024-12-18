@@ -1,0 +1,15 @@
+:root {
+  --backgroup-image: url('./assets/images/pix.jpg');
+}
+
+body {
+  background-image: var(--backgroup-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.background {
+  background-color: #74BDCB ;
+}
+

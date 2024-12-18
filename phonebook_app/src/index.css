@@ -1,0 +1,24 @@
+:root {
+  --backgroup-image: url('./assets/images/pink2.jpg');
+}
+
+body {
+  background-image: var(--backgroup-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.background {
+  background-color: #74BDCB ;
+}
+
+.rounded-circle {
+  border-radius: 50%!important;
+}
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #f1f3f7;
+  border: 1px solid #eff0f2;
+  border-radius: 0.75rem;
+}

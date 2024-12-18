@@ -1,0 +1,54 @@
+
+/* Add background image */
+:root {
+  --backgroup-image: url('./assets/images/pix5.jpg');
+}
+
+/* Add background image */
+body {
+  background-image: var(--backgroup-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.shadow {
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: large;
+    border-radius:10px/50%;
+}
+
+.custom-shape {
+  background-color: #FEDE00;
+  border-top-left-radius: 15px; /* Curve for top-left corner */
+  border-top-right-radius: 15px; /* Curve for top-right corner */
+  border-bottom-left-radius: 0; /* Sharp bottom-left corner */
+  border-bottom-right-radius: 0; /* Sharp bottom-right corner */
+}
+
+.custom-shape2 {
+  background-color: #C8DF52;
+  border-top-left-radius: 0px; /* Curve for top-left corner */
+  border-top-right-radius: 0px; /* Curve for top-right corner */
+  border-bottom-left-radius: 15px; /* Sharp bottom-left corner */
+  border-bottom-right-radius: 15px; /* Sharp bottom-right corner */
+}
+
+.content {
+  background-color: #0A7029;
+  border-radius:20px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.25);
+}
+
+.content-border {
+  border-radius:10px;
+  background-color: white;
+  margin: 2px 10px;
+  margin-bottom: 5px;
+  padding: 10px 10px;
+  color: black;
+  
+}
+

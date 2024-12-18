@@ -1,0 +1,71 @@
+:root {
+    --backgroup-image: url('./assets/images/pix3.jpg');
+  }
+
+  body {
+    background-image: var(--backgroup-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .background {
+    background-color: #74BDCB ;
+  }
+
+  .header {
+    font-size: larger;
+    margin-top: 20px;
+    padding: 30px;
+    color: white;
+    background-color: #613659;
+  }
+
+  .operations {
+    font-size: larger;
+    margin-top: 20px;
+    padding: 30px;
+    color: white;
+    background-color: #C197D2;
+  }
+
+  .taskalign{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .taskout {
+    background-color: white;
+  }
+  .task {
+    font-size: larger;
+    margin-top: 20px;
+    padding: 30px;
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .location-text {
+    margin-left: 20px; /* Add space below the SVG */
+
+  }
+  
+  .small-cross-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 12px; /* Adjust the size of the cross */
+    padding: 2px 6px; /* Adjust padding for a smaller button */
+    line-height: 1; /* Ensure the button height stays compact */
+    height: 40px; /* Allow flexible height */
+    width: 40px; /* Allow flexible width */
+    min-width: unset; /* Prevent Bootstrap's default min-width */
+  }
+  
+  .error {
+    background-color: white;
+    padding: 10px;
+    color: red;
+  }
